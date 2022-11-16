@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: skyblue;
+    padding-left: 10px;
+    display: flex;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+
+.navbar ul li {
+    text-align: right;
+    display: inline-block;
+    padding: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.home-image {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.signup {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.signup-image {
+    width: 500px;
+    height: 500px;
+}
+
+
+.signup-con {
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-title {
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: ui-monospace;
+    letter-spacing: 1px;
+}
+
+
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+.inputBox {
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid skyblue;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+
+.btn1 {
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: skyblue;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.login {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-image {
+    width: 500px;
+    height: 500px;
+}
+
+
+.login-con {
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px
+}
+
+.product {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 5px
+}
+
+.product ul li {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid skyblue;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.profile {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 5px
+}
+
+.profile ul {
+    display: grid;
+    justify-content: center;
+}
+
+.profile ul li {
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.add-product {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.add-container{
+    display: grid;
+}
+
+
+.product-list{
+    margin-top: -10px;
+}
+
+
+.btn2{
+    width: 150px;
+    height: 30px;
+    background-color: skyblue;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+span{
+    text-align: left;
+    margin-left: 20px;
+    color: red;
+}
